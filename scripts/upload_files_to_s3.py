@@ -72,7 +72,7 @@ class S3Uploader:
 if __name__ == "__main__":
     dot_envpath = os.path.join(
         os.path.abspath(os.path.join(os.path.dirname(__file__), "..",'aws_credentials.env')))
-    load_dotenv(dotenv_path= dot_env_path)
+    load_dotenv(dotenv_path= dot_envpath)
     BUCKET_NAME = os.getenv('AWS_BUCKET_NAME')
     rootpath = os.path.join(os.getcwd(),'data')
     S3_PREFIX = "raw"
