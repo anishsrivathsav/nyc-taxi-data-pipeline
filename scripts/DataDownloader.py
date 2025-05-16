@@ -11,6 +11,7 @@ logging.basicConfig(
     filemode='a',                  
     format='%(asctime)s - %(levelname)s - %(message)s',
     level=logging.INFO)
+
 # ==============================
 # LOGGING TO COMNSOLE 
 # ==============================
